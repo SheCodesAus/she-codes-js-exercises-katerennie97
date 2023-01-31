@@ -13,6 +13,7 @@ window.onload = function () {
 
 function showMessage () {
     let message = document.getElementById('message-text').value;
+    // console.log(message);
     let messageBox = document.getElementById("message-box");
-    messageBox.InnerText = message;
+    messageBox.innerText = message;
 }
