@@ -1,4 +1,4 @@
-<!-- function add(step) {
+function add(step) {
     let numberElement = document.getElementById("number");
     let number = numberElement.innerText;
     number = parseInt(number) + step;
@@ -17,14 +17,14 @@ function divide(step) {
     let number = numberElement.innerText;
     number = parseInt(number) / step;
     numberElement.innerText = number;
-} -->
+} 
 
-<!-- function multiply(step) {
+function multiply(step) {
     let numberElement = document.getElementById("number");
     let number = numberElement.innerText;
     number = parseInt(number) * step;
     numberElement.innerText = number;
-} --> -->
+
 
 <!-- calculate  -->
 <!-- if addition, do addition -->
